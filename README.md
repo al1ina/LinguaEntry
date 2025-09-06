@@ -1,6 +1,6 @@
 # LinguaEntry
 
-LinguaEntry is a web application designed to help users improve their language learning experience by tracking entries, practicing vocabulary, and keeping progress organized.  
+LinguaEntry is a web application that helps users improve their language learning by tracking entries, practicing vocabulary, and monitoring progress. It integrates Claude AI to correct user-written entries and highlight differences between the original text and the AI’s suggestions. The app also includes a streak counter to keep users engaged and motivated to write regularly. With a clean and intuitive interface, users can easily review their past entries alongside AI corrections.
 
 ## 🚀 Features
 - ✍️ Add and manage language learning entries
