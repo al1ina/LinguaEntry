@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* background-color: #222; for contrast */
+}
+
+/* Sidebar stays fixed */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    /* background-color: #333; */
+}
+
+/* Streak counter stays pinned at top */
+.streak-counter {
+    position: absolute;
+    top: 10px;
+    left: 18vw;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+    
+}
+
+/* Scrollable content area */
+.entry-page-container {
+    margin-left: 15vw;  /* space for sidebar */
+    padding: 40px 20px 20px 20px; /* padding top for streak counter */
+    min-height: 100vh;
+    gap: 0;
+}
+/* .entry-title,
+.entry-page form {
+  margin: 0;
+} */
+
+/* Title */
+#entry-title-textarea {
+    font-size: 2.5em;
+    /* margin-bottom: 1rem; */
+    text-align: left;
+    /* margin-left: 1vw; */
+    resize: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* overflow: hidden; */
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+    color: inherit;
+    padding: 0;
+    outline: none;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    margin-top: 4.5vh;
+    width: 74vw; /* Adjust width as needed */
+    max-width: 74vw; /* Ensure it doesn't exceed this width */
+    
+    height: auto; 
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-bottom: 0;
+}
+
+/* Textarea */
+.write-entry {
+    width: 70vw;
+    /* min-width: 20vw; */
+    padding: 20px;
+    border-radius: 8px;
+    resize: none;
+    font-family: inherit;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+/* Buttons in a row */
+.button-row {
+    margin-top: 20px;
+}
+.save-button,
+.done-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #a1aaa1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Corrected text box */
+.corrected-entry {
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 1vw;
+    max-width: 70vw;
+    background-color: #3b3b3b;
+    border: 1px solid #848484;
+    border-radius: 8px;
+    font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+}
+
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 8px; /* slim */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* no background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* dark gray thumb */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* lighter on hover */
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 transparent;
+}
+
+/* .below-textarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+} */
+.word-count {
+    font-size: 0.9em;
+    color: #888;
+    position: absolute;
+    /* margin-top: 10px;
+    margin-left: 1vw; */
+    top:75vh;
+    left:85vw;
+}
+#ai-insight {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    padding: 10px;
+    /* border-radius: 5px; */
+    background-color: #3b3b3b;
+    border: 1px solid #848484;
+    border-radius: 8px;
+}
+.highlight {
+    font-weight: 600;          /* stronger than normal text but softer than default <b> */
+  background-color: #848484; /* softer yellow instead of harsh pure yellow */
+  padding: 0 2px;            /* little breathing room around text */
+  border-radius: 3px;        /* rounded edges for polish */
+    
+}
+
+@media (max-width: 768px) {
+  .word-count {
+    left:82vw;
+    top:75vh;
+  }
+}
+@media (max-width: 768px) {
+  .write-entry {
+    width: 65vw;
+  }
+}
+@media (max-width: 768px) {
+  .streak-counter {
+    position: absolute;
+    left: 20vw;
+  }
+}
