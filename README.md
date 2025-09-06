@@ -33,3 +33,6 @@ API_KEY=your_api_key_here
 ## To start
 Must run "npm run dev" on the front end 
 Then do "cd backend" and run "node server.js" to run the backend
+
+## 🖥️ Screenshots
+
