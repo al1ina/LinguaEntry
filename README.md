@@ -35,8 +35,8 @@ Must run "npm run dev" on the front end
 Then do "cd backend" and run "node server.js" to run the backend
 
 ## 🖥️ Screenshots
-<img width="1912" height="872" alt="image" src="https://github.com/user-attachments/assets/9c7956b3-4b15-46f5-8745-8a54a27bfee4" />
-<img width="1490" height="858" alt="image" src="https://github.com/user-attachments/assets/d01b3557-a470-4a0c-af70-e891089faac2" />
+<img width="1200" height="auto" alt="image" src="https://github.com/user-attachments/assets/9c7956b3-4b15-46f5-8745-8a54a27bfee4" />
+<img width="1200" height="auto" alt="image" src="https://github.com/user-attachments/assets/d01b3557-a470-4a0c-af70-e891089faac2" />
 
 
 
