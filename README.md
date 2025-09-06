@@ -20,8 +20,7 @@ Create a .env file in the root directory to configure environment variables (not
 API_KEY=your_api_key_here
 
 ## To start
-Must run "npm run dev" on the front end 
-Then do "cd backend" and run "node server.js" to run the backend
+Must run "npm run dev" on the front end, then do "cd backend" and run "node server.js" to run the backend
 
 ## 🖥️ Screenshots
 <img width="800" height="auto" alt="image" src="https://github.com/user-attachments/assets/9c7956b3-4b15-46f5-8745-8a54a27bfee4" />
