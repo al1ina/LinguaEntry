@@ -26,6 +26,10 @@ Must run "npm run dev" on the front end, then do "cd backend" and run "node serv
 <img width="800" height="auto" alt="image" src="https://github.com/user-attachments/assets/9c7956b3-4b15-46f5-8745-8a54a27bfee4" />
 <img width="800" height="auto" alt="image" src="https://github.com/user-attachments/assets/d01b3557-a470-4a0c-af70-e891089faac2" />
 
+## NOTE
+To change the language from Spanish into another, update the ai-correct route in the server.js file by replacing "Spanish" with any other language.
 
+## TODO
+Make the AI-insights button take you to a page to analyze all your past entries and see what you had the most issues with and recommend stuff to work on.
 
 
