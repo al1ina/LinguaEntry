@@ -21,7 +21,7 @@ API_KEY=your_api_key_here
 ## To start
 Must run "npm run dev" on the front end, then do "cd backend" and run "node server.js" to run the backend
 
-## 🖥️ Screenshots
+## Screenshots
 <img width="800" height="auto" alt="image" src="https://github.com/user-attachments/assets/9c7956b3-4b15-46f5-8745-8a54a27bfee4" />
 <img width="800" height="auto" alt="image" src="https://github.com/user-attachments/assets/d01b3557-a470-4a0c-af70-e891089faac2" />
 
