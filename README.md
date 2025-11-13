@@ -1,21 +1,20 @@
 # LinguaEntry
 
-LinguaEntry is a web application that helps users improve their language learning by tracking entries, practicing vocabulary, and monitoring progress. It integrates Claude AI to correct user-written entries and highlight differences between the original text and the AI’s suggestions. The app also includes a streak counter to keep users engaged and motivated to write regularly. With a clean and intuitive interface, users can easily review their past entries alongside AI corrections.
+LinguaEntry is a fullstack web application made with React and TypeScript, it helps users improve their language learning by tracking entries, practicing vocabulary, and monitoring progress. It integrates a Claude AI API to correct user-written entries and highlight differences between the original text and the AI’s suggestions. The app also includes a streak counter to keep users engaged and motivated to write regularly. With a clean and intuitive interface, users can easily review their past entries alongside AI corrections. It also has an AI-insights feature that enables the user to look back on their past entries and have the AI find the places where the user can improve on.
 
-## 🚀 Features
+## Features
 - Add and manage language learning entries
 - Track progress over time
 - User-friendly interface built with React + TypeScript
 - Backend support with JSON data handling
 - Secure environment variable management (`.env` file not included in repo)
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend:** React, TypeScript, CSS
 - **Backend:** Node.js / Express (with JSON storage)
 - **Package Management:** npm
-- **Version Control:** Git + GitHub
 
-## 🔑 Environment Variables
+## Environment Variables
 Create a .env file in the root directory to configure environment variables (not committed to GitHub). Example:
 API_KEY=your_api_key_here
 
@@ -29,7 +28,5 @@ Must run "npm run dev" on the front end, then do "cd backend" and run "node serv
 ## NOTE
 To change the language from Spanish into another, update the ai-correct route in the server.js file by replacing "Spanish" with any other language.
 
-## TODO
-Make the AI-insights button take you to a page to analyze all your past entries and see what you had the most issues with and recommend stuff to work on.
 
 
